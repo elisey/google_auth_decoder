@@ -42,4 +42,9 @@ tasks:
       - task mypy
       - task test
 
+  clean:
+    desc: Remove build files
+    cmds:
+      - rm -r dist
+
 
