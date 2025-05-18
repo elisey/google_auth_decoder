@@ -1,6 +1,6 @@
 [project]
 name = "google-auth-decoder"
-version = "0.2.0"
+version = "0.3.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -10,6 +10,9 @@ requires-python = ">=3.13"
 dependencies = [
     "protobuf==5.29.3",
 ]
+
+[project.urls]
+Repository = "https://github.com/elisey/google_auth_decoder"
 
 [project.scripts]
 google_auth_decoder = "google_auth_decoder:main"
